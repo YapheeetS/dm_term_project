@@ -1,0 +1,50 @@
+html, body, main {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  background: #fff;
+  font-family: 'Titillium Web', sans-serif;
+  /* overflow: hidden */
+}
+
+.btn {
+  display: block;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.form-control{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.review-label {
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.predict-title {
+  display: block;
+  margin-top: 20px;
+  margin-left: 20px;
+  height:20px;
+  width:400px;
+  line-height: 20px;
+}
+
+.review-label2 {
+  margin-top: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.predict-title2 {
+  display: block;
+  margin-top: 20px;
+  margin-left: 20px;
+  height:20px;
+  width:400px;
+  line-height: 20px;
+}
