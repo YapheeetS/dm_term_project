@@ -50,19 +50,7 @@ data_frame.head()
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -135,19 +123,7 @@ data_frame.groupby(["rating"]).count()
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -549,17 +525,6 @@ print('Test accuracy:', results[1])
     1846428/1846428 [==============================] - 318s 172us/sample - loss: 1.6320 - accuracy: 0.3477
     Epoch 5/5
     1846428/1846428 [==============================] - 318s 172us/sample - loss: 1.6229 - accuracy: 0.3503
-
-
-    IOPub data rate exceeded.
-    The notebook server will temporarily stop sending output
-    to the client in order to avoid crashing it.
-    To change this limit, set the config variable
-    `--NotebookApp.iopub_data_rate_limit`.
-    
-    Current values:
-    NotebookApp.iopub_data_rate_limit=1000000.0 (bytes/sec)
-    NotebookApp.rate_limit_window=3.0 (secs)
     
 
 
@@ -713,17 +678,6 @@ print('Test accuracy:', results[1])
     Epoch 3/3
     1846428/1846428 [==============================] - 1520s 823us/sample - loss: 1.6395 - accuracy: 0.3456
 
-
-    IOPub data rate exceeded.
-    The notebook server will temporarily stop sending output
-    to the client in order to avoid crashing it.
-    To change this limit, set the config variable
-    `--NotebookApp.iopub_data_rate_limit`.
-    
-    Current values:
-    NotebookApp.iopub_data_rate_limit=1000000.0 (bytes/sec)
-    NotebookApp.rate_limit_window=3.0 (secs)
-    
 
 
     Test loss: 1.640248633179343
